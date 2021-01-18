@@ -1,0 +1,7 @@
+number=7
+if (number % 2) == 0:
+    print ('%s is even number' %number)
+else:
+    print ('%s is odd number' %number)
+    
+    
