@@ -4,4 +4,32 @@ if (number % 2) == 0:
 else:
     print ('%s is odd number' %number)
     
+    number=102
+if (number % 2) == 0 and number > 100:
+    print ('%s is even number and greater than 100' %number)
+else:
+    print ('%s is odd number' %number)
     
+    number=102
+if (number % 2) == 0 and number > 100:
+    print ('%s is even number and greater than 100' %number)
+else:
+    print ('%s is odd number' %number)
+    
+    myname=input('enter your name')
+if (myname == 'joe'):
+    print('my name is joe')
+else:
+    print(myname)
+    
+    score=59
+if (score>=90):
+    print ('score is A')
+elif (score>=80 and score < 90):
+    print('score is B')
+elif (score>= 70 and score < 80):
+    print('score is C')
+elif (score>= 60 and score < 70):
+    print('score is D')
+elif (score <60):
+    print('score is F')
