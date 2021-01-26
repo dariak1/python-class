@@ -1,0 +1,36 @@
+list=[]
+list.append(1)
+list.append(2)
+list.append(3)
+print(list)
+
+element1=list[0]
+element2=list[2]
+new_list = [element1, element2]
+print (new_list)
+
+new_list [0]=0
+print(new_list)
+
+del new_list[1]
+print(new_list)
+
+camp=('c','a','m','p')
+print(camp)
+
+camp[2]
+print(camp)
+
+'p' in camp
+
+if 'p' in camp:
+    print(len(camp))
+    
+    map={'a':1,'b':2,'c':3,'d':4}
+print(map)
+
+map.append('e:5')
+print(map)
+
+del map[2]
+print (map)
